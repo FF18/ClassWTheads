@@ -1,6 +1,6 @@
 package accounts;
 
-public class MainTest {
+public class MainTest extends Thread {
 	protected int balance;
 	public void run() {
 		
