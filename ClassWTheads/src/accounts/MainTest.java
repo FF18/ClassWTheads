@@ -7,7 +7,7 @@ public class MainTest extends Thread {
 		System.out.println("Balance on account : "+ balance);
 	}
 	public static void main(String[] args) {
-		Account balance = new Account();
+		MainTest balance = new MainTest();
 		
 		balance.start();
 		

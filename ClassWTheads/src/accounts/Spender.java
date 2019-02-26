@@ -1,8 +1,7 @@
 package accounts;
 
 public class Spender extends Account {
-//	protected int withdraw;//murida money from hashbon
-//	private Account account;
+
 	private int amount;
 	public void run() {
 	
@@ -11,18 +10,7 @@ public class Spender extends Account {
 	}
 	return;
 	}
-//	public int getWithdraw() {
-//		return withdraw;
-//	}
-//	public void setWithdraw(int withdraw) {
-//		this.withdraw = withdraw;
-//	}
-//	public Account getAccount() {
-//		return account;
-//	}
-//	public void setAccount(Account account) {
-//		this.account = account;
-//	}
+
 	public void withdraw(int amount) {
 		balance -= amount;
 	}
