@@ -6,9 +6,11 @@ public class MainTest extends Thread {
 		
 		System.out.println("Balance on account : "+ balance);
 	}
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		MainTest balance = new MainTest();
-		
+	
+		Thread.sleep(3000);
+
 		balance.start();
 		
 	}
